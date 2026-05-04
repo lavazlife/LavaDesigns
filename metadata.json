@@ -1,0 +1,14 @@
+{
+  "name": "liquidlavaz",
+  "description": "A professional Android application nexus for AI prompt engineering and project management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "AI Prompt Engineering",
+    "App Architecture Generator",
+    "Project Management",
+    "Asset Vault"
+  ]
+}
