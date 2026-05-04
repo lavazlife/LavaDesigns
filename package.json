@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "android:sync": "ng build && (cp dist/app/browser/index.csr.html dist/app/browser/index.html || true) && npx cap sync android",
-    "android:build": "npm run android:sync && cd android && ./gradlew assembleDebug",
+    "android:build": "npm run android:sync && chmod +x android/gradlew && cd android && ./gradlew assembleDebug",
     "android:open": "npx cap open android",
     "serve:ssr:app": "node dist/app/server/server.mjs"
   },
